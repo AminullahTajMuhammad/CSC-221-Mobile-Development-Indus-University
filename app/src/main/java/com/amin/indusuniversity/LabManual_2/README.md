@@ -1,5 +1,5 @@
 Lab Manual 2 Completed download this repository open on android studio and run on your personal computer.
-Edit These Two lines and change colors of both lines like in mine color is ```holo_blue_dark``` and ```holo_red_dark``` and write colors on below lines
+Edit These Two lines and change colors of both lines like in mine color is ```holo_blue_dark``` and ```holo_red_dark``` and change colors in below lines
 
 ```tvHelloAndroid.setTextColor(getResources().getColor(android.R.color.holo_blue_dark));```
 ```tvHelloAndroid.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));```
