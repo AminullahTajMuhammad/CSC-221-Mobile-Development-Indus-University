@@ -11,18 +11,14 @@ import com.amin.indusuniversity.R;
 
 public class LabManual_Three extends AppCompatActivity {
 
-    int ch=1;
-    float font=30;
-
+    int ch=1;float font=30;
     Button btnChangeTextColor, btnChangeBackground;
     TextView tvText;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_lab_manual__three);
         findViewbyIds();
-
         btnChangeBackground.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -47,23 +43,18 @@ public class LabManual_Three extends AppCompatActivity {
                         break;
                 }
                 ch++;
-                if (ch == 7)
-                    ch = 1;
+                if (ch == 7)    ch = 1;
             }
         });
-
         btnChangeTextColor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 tvText.setTextSize(font);
                 font = font + 5;
-                if (font == 50) {
-                    font = 30;
-                }
+                if (font == 50) { font = 30; }
             }
         });
     }
-
     public void findViewbyIds() {
         btnChangeTextColor = findViewById(R.id.btnChangeTextColor);
         btnChangeBackground = findViewById(R.id.btnChangeBackGround);

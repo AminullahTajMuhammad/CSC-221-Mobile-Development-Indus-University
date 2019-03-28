@@ -20,8 +20,8 @@ public class LabManual_Two extends AppCompatActivity {
         tvHelloAndroid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                tvHelloAndroid.setTextColor(getResources().getColor(android.R.color.holo_blue_dark));
-                tvHelloAndroid.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));
+            tvHelloAndroid.setTextColor(getResources().getColor(android.R.color.holo_blue_dark));
+            tvHelloAndroid.setBackgroundColor(getResources().getColor(android.R.color.holo_red_dark));
             }
         });
 
