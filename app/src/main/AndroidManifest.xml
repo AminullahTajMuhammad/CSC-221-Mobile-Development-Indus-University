@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LabManual_4.ResultActivity"></activity>
-        <activity android:name=".LabManual_4.LoginActivity">
+        <activity android:name=".AssignmentsOne.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".LabManual_3.LabManual_Three"></activity>
+
+        <activity android:name=".LabManual_4.ResultActivity" />
+        <activity android:name=".LabManual_4.LoginActivity">
+
+        </activity>
+        <activity android:name=".LabManual_3.LabManual_Three" />
         <activity android:name=".LabManual_2.LabManual_Two" />
         <activity android:name=".MainActivity" />
         <activity android:name=".Test" />
